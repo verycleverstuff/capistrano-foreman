@@ -1,4 +1,4 @@
-require File.expand_path('../lib/capistrano-foreman', __FILE__)
+require_relative File.expand_path('../lib/capistrano-foreman', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Johannes Gorset", 'John Bellone']
