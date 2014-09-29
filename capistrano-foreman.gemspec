@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.name          = "capistrano-foreman"
   gem.require_paths = ["lib"]
-  gem.version       = "1"
+  gem.version       = Capistrano::Foreman::VERSION
 
   gem.add_dependency 'capistrano', '~> 3.1'
   gem.add_dependency 'capistrano-bundler', '~> 1.1'
